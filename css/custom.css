@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@font-face {
+  font-family: 'Beon';
+  src: url('../fonts/beon-webfont.woff') format('woff');
+}
+
+/*Css voor de navigatie*/
+.nav-link {
+  color: #ffcee0;
+  font-size: 22px;
+  font-family: 'Beon';
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/*Important moest gebruikt worden omdat in de css van bootstrap voor de kleur ook important is gebruikt, anders werd de kleur niet gezien*/
+.bg-light {
+  background-color: #091b33 !important;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+/*Einde CSS voor de navigatie*/
+
+/*CSS voor de header*/
+.backgroundlogo {
+  /* https://www.pexels.com/photo/4k-wallpaper-architecture-background-black-1308624/*/
+  background-image: url(../img/muur.jpg);
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img-logo {
+  height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-top: 75px;
+}
+
+#titel {
+  font-family: 'Beon';
+  color: white;
+  text-align: center;
+  font-size: 6vw;
+  text-shadow: 2px 2px 8px white;
+}
+
+#ondertitel {
+  color: #ffcee0;
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Beon';
+  text-shadow: 5px 5px 10px #ffcee0;
+  padding-bottom: 33px;
+}
+
+/*Einde CSS voor de header*/
+
+/*Begin CSS voor artikelen*/
+
+
+.preview {
+  margin-top: 25px;
+}
+
+.subtitel {
+  font-family: "Beon";
+  color: #ffcee0;
+  font-size: 40px;
+  border-color: #091b33;
+  background-color: #091b33;
+  text-align: center;
+  margin-bottom: 0px;
+  width: 456px;
+}
+
+.foto {
+  width: 456px;
+  height: 456px;
+}
+
+.foto2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 127px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.subtekst {
+  border-style: solid;
+  border-color: #091b33;
+  background-color: #091b33;
+  color: #ffcee0;
+  width: 150px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-family: "Beon";
+  margin: 0px 10px 10px 145px;
+}
+
+.subtekst:hover {
+  border-color: #ffcee0;
+  background-color: #ffcee0;
+  color: #091b33;
+}
+
+.tekst {
+  padding: 10px;
+}
+
+.preview {
+  margin-top: 40px;
+}
+
+.omlijning {
+  border-color: #ffcee0;
+  border-width: 5px;
+  border-style: solid;
+  width: 466px;
+
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+#taart {
+   /* https://www.pexels.com/photo/4k-wallpaper-architecture-background-black-1308624/*/
+  background-image: url(../img/muur.jpg);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 65px;
+  height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Contact formulier*/
+.container-contact {
+  padding-left: 9.5%;
+  padding-right: 9.5%;
+  padding-bottom: 31px;
+}
+
+
+.contact-styling {
+  background-color: #ffcee0;
+}
+
+.contact-button {
+  background-color: #091b33;
+  color: white;
+  border-color: #091b33;
+}
+
+.contact-button:hover {
+  background-color: #ffcee0;
+  color: #091b33;
+  border-color: #ffcee0;
+  ;
+}
+
+/*Einde CSS Contact formulier*/
+
+.footermuur {
+   /* https://www.pexels.com/photo/4k-wallpaper-architecture-background-black-1308624/*/
+  background-image: url(../img/muur.jpg);
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 20px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footertitel {
+  font-family: 'Beon';
+  color: white;
+  text-shadow: 2px 2px 8px white;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pinterest {
+  height: 88px;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2/2;
+}
+
+.linkedin {
+  grid-row: 1;
+  grid-column: 1/2;
+  padding-right: 25px;
+}
+
+
+.socialmediabuttons {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 208px;
+}
+
+/*About me pagina*/
+
+#aboutmetitel {
+  font-family: 'Beon';
+  color: #ffcee0;
+  text-align: center;
+  text-shadow: 2px 2px 8px #ffcee0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 65px;
+}
+
+
+/*breadcrum*/
+.breadcrumb {
+  background-color: transparent;
+}
+
+.non-active {
+  color: white;
+  font-size: 18px;
+}
+
+.breadcrumb-item.active {
+  color: #ffcee0;
+  font-size: 18px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #ffcee0;
+}
+
+.skilltitel {
+  margin-top: 36.5px;
+  font-family: 'Open Sans';
+  padding-left: 15px;
+}
+
+.progress-bar-skills {
+  background-color: #091b33;
+  color: #ffcee0;
+  font-size: 20px;
+
+}
+
+.progress {
+  background-color: #ffcee0;
+}
+
+
+/*Portfolio Pagina*/
+#portfoliotitel {
+  font-family: 'Beon';
+  color: #ffcee0;
+  text-align: center;
+  text-shadow: 2px 2px 8px #ffcee0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 65px;
+}
+
+
+.my-row {
+  margin-top: 20px;
+}
+
+/*Contact Pagina*/
+.titelcontact {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-family: 'Open Sans';
+  font-size: 26px;
+}
+
+.contacttitel {
+  font-family: 'Beon';
+  color: #ffcee0;
+  text-align: center;
+  text-shadow: 2px 2px 8px #ffcee0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 55px;
+}
+
+.my-col {
+  padding-bottom: 58px;
+  max-width: 456px;
+}
+
+@media (min-width: 992px) {
+  .my-col {
+    max-width: 500px;
+  }
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 66px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 456px;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Beon';
+}
+
+.overlaydiv:hover .overlay {
+  opacity: 1;
+}
+
+
+/*CSS voor verdiepende portfolio pagina's*/
+.img-portfolio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50.6%;
+  border-style: solid;
+  border-color: #ffcee0;
+  border-width: 5px;
+  ;
+  margin-top: 20px;
+}
+
+.magazine-container {
+  margin-top: 20px;
+}
+
+.tijdschrift-col {
+  padding-bottom: 58px;
+  max-width: 456px;
+}
+
+@media (min-width: 992px) {
+  .tijdschrift-col {
+    max-width: 500px;
+  }
+}
+
+.bordertext {
+  margin: 8px;
+  height: 357px;
+  ;
+  overflow: scroll;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bordertext2 {
+  margin: 8px;
+  height: 318px;
+  overflow: scroll;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#vierkant1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ff1cb4;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px
+}
+
+#vierkant2 {
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant3 {
+  height: 150px;
+  width: 150px;
+  background-color: #f478b8;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant4 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffff34;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant5 {
+  height: 150px;
+  width: 150px;
+  background-color: #c25858;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant6 {
+  height: 150px;
+  width: 150px;
+  background-color: #2e3a4f;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant7 {
+  height: 150px;
+  width: 150px;
+  background-color: #a8a8a8;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant8 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant9 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffce08;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant10 {
+  height: 150px;
+  width: 150px;
+  background-color: #28a928;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant11 {
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant12 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant13 {
+  height: 150px;
+  width: 150px;
+  background-color: #15f7f6;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant14 {
+  height: 150px;
+  width: 150px;
+  background-color: #fd8610;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant15 {
+  height: 150px;
+  width: 150px;
+  background-color: #2d2a33;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant16 {
+  height: 150px;
+  width: 150px;
+  background-color: #e8e4e1;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant17 {
+  height: 150px;
+  width: 150px;
+  background-color: #ead2ec;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant18 {
+  height: 150px;
+  width: 150px;
+  background-color: #f4e4ef;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant19 {
+  height: 150px;
+  width: 150px;
+  background-color: #beb6dd;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant20 {
+  height: 150px;
+  width: 150px;
+  background-color: #8f85aa;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant21 {
+  height: 150px;
+  width: 150px;
+  background-color: #091b33;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant22 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffcee0;
+  ;
+  display: inline-block;
+  margin: 15px;
+}
+
+#vierkant23 {
+  height: 150px;
+  width: 150px;
+  background-color: #6c4675;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 59px;
+}
+
+#vierkant24 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin: 15px;
+}
